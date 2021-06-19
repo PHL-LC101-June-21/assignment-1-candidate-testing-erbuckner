@@ -41,6 +41,7 @@ function askQuestion() {
 
 function gradeQuiz(candidateAnswers) {
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
+  numberOfCorrectAnswers = 0;
   for (i = 0; i <= questions.length - 1; i++) {
     if (correctAnswers[i].toLowerCase() === candidateAnswers[i].toLowerCase()) {
       numberOfCorrectAnswers++;
