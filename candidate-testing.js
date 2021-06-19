@@ -33,10 +33,10 @@ candidateName = (input.question("What is your name? "));
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
     for (i = 0; i <= questions.length - 1; i++){
-  candidateAnswer = input.question(questions[i]);
-  candidateAnswers.push(candidateAnswer);
-  console.log(`Your answer: ${candidateAnswer}\nCorrect answer: ${correctAnswers[i]}\n `);
-  }
+      candidateAnswer = input.question(questions[i]);
+      candidateAnswers.push(candidateAnswer);
+      console.log(`Your answer: ${candidateAnswer}\nCorrect answer: ${correctAnswers[i]}\n `);
+    }
 }
 
 function gradeQuiz(candidateAnswers) {
@@ -54,6 +54,7 @@ function gradeQuiz(candidateAnswers) {
   }
   else {
     console.log(">>> Status: FAILED <<<");
+    return grade;
   }
 }
 
