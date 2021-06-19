@@ -12,7 +12,7 @@ let question2 = "True or false: 5 kilometer == 5000 meters? ";
 let question3 = "(5 + 3)/2 * 10 = ? ";
 let question4 = "Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2? ";
 let question5 = "What is the minimum crew size for the ISS? ";
-let correctAnswer = "";
+let correctAnswer = "Sally Ride";
 let correctAnswer1 = "Sally Ride";
 let correctAnswer2 = "true";
 let correctAnswer3 = "40";
