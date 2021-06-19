@@ -42,7 +42,7 @@ function askQuestion() {
 function gradeQuiz(candidateAnswers) {
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
   for (i = 0; i <= questions.length - 1; i++) {
-    if (correctAnswers[i] === candidateAnswers[i] || correctAnswers[i] === candidateAnswers[i].toLowerCase() || correctAnswers[i] === candidateAnswers[i].toUpperCase()) {
+    if (correctAnswers[i].toLowerCase() === candidateAnswers[i].toLowerCase()) {
       numberOfCorrectAnswers++;
     }
   }
