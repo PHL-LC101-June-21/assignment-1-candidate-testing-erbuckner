@@ -46,7 +46,7 @@ function gradeQuiz(candidateAnswers) {
       numberOfCorrectAnswers++;
     }
   }
-  let grade = (numberOfCorrectAnswers/questions.length) * 100;
+  let grade = (Number(numberOfCorrectAnswers)/ questions.length) * 100;
   console.log(`>>> Overall grade: ${grade}% (${numberOfCorrectAnswers} of 5 responses correct) <<< `);
 
   if (grade >= 80) {
