@@ -53,7 +53,7 @@ function gradeQuiz(candidateAnswers) {
     console.log(">>> Status: PASSED <<<\nWelcome to the team!");
   }
   else {
-    cosole.log(">>> Status: FAILED <<<");
+    console.log(">>> Status: FAILED <<<");
   }
 }
 
