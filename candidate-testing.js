@@ -6,7 +6,7 @@ const input = require('readline-sync');
 let candidateName = "";
 
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
-let question = "What is your name?";
+let question = "Who was the first American woman in space? ";
 let question1 = "Who was the first American woman in space? ";
 let question2 = "True or false: 5 kilometer == 5000 meters? ";
 let question3 = "(5 + 3)/2 * 10 = ? ";
