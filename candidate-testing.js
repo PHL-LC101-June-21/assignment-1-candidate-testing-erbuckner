@@ -7,11 +7,11 @@ let candidateName = "";
 
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question = "What is your name?";
-let question1 = "1) Who was the first American woman in space? ";
-let question2 = "2) True or false: 5 kilometer == 5000 meters? ";
-let question3 = "3) (5 + 3)/2 * 10 = ? ";
-let question4 = "4) Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2? ";
-let question5 = "5) What is the minimum crew size for the ISS? ";
+let question1 = "1) Who was the first American woman in space?";
+let question2 = "2) True or false: 5 kilometer == 5000 meters?";
+let question3 = "3) (5 + 3)/2 * 10 = ?";
+let question4 = "4) Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2?";
+let question5 = "5) What is the minimum crew size for the ISS?";
 let correctAnswer = "";
 let correctAnswer1 = "Sally Ride";
 let correctAnswer2 = "true";
@@ -50,7 +50,7 @@ function gradeQuiz(candidateAnswers) {
   console.log(`>>> Overall grade: ${grade}% (${numberOfCorrectAnswers} of 5 responses correct) <<< `);
 
   if (grade >= 80) {
-    console.log(">>> Status: PASSED <<<\nWelcome to the team!");
+    console.log(">>> Status: PASSED <<<");
   } else {
     console.log(">>> Status: FAILED <<<");
   }
